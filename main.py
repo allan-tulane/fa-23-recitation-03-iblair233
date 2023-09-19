@@ -53,7 +53,7 @@ def _quadratic_multiply(x, y):
     vectorx = x.binary_vec
     vectory = y.binary_vec
   
-    padding = pad(xvec, yvec)
+    padding = pad(vectorx, vectory)
     vectorx = padding[0]
     vectory = padding[1]
 
